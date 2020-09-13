@@ -71,7 +71,7 @@ elif len(sys.argv) >= 2:
 	    writer.writerow(['Video Title', 'Video Location', 'Video Description'])
 	    writer.writerows(results)
 
-	print('Results exported to '+csv_file_name+'.')
+	print('Video data exported to '+csv_file_name+'.')
 	print('Done.')
 
 else:
